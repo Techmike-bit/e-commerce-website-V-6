@@ -1,0 +1,362 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+/** Navbars**/
+
+.navbar {
+margin-left: 10%;
+margin-right: 15%;
+}
+nav form {
+  display: inline-block;
+}
+
+nav input[type="file"] {
+  display: block;
+}
+
+
+/** Main Image And Text **/
+.jpg1 {
+  width:60%;
+  height: auto;
+  object-fit: ;
+  margin-left: 30%;
+  margin-right: 30%;
+   flex-basis: 31%;
+    border-radius: 10px;
+
+}
+
+.sneaktext{
+  padding-right: 5%;
+  margin-top: 4%;
+
+}
+/** Image Button Set **/
+.image-set{
+  margin-left: 30%;
+  margin-top:3%;
+}
+.a{
+   background-image: url('images/image-product-1-thumbnail.edited.jpg');
+
+}
+.b{
+   background-image: url('images/image-product-2-thumbnail.edited.jpg');
+}
+.c{
+   background-image: url('images/image-product-3-thumbnail.edited.jpg');
+}
+.d{
+   background-image: url('images/image-product-4-thumbnail.edited.jpg');
+}
+.jpg{
+  outline: none;
+  border:   ;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 10px;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+/** design **/
+.navbar-brand{
+  font-family: "'ubuntu','serif'";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  font-family: "'Montserrat'";
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.top-text{
+  font-family: "'lato'";
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ce651b;
+}
+.top-text2{
+  font-family: "'Montserrat'";
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 50%;
+}
+.top-text3{
+  font-size: 1.2rem;
+  width:50%;
+}
+#carouselExample{
+  max-width: 100%;
+}
+.discounted-price{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.discount-rate{
+  font-size: 1rem;
+  font-weight: normal;
+  background-color:#F6F1E9 ;
+  color:#FF6000;
+  text-decoration: none;
+  border: none;
+  opacity: 0.8;
+}
+.no-of-shoes{
+
+  color: #FF6000;
+  font-size: 1.3rem;
+}
+.navHr{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+padding-bottom: 20px;
+opacity: 0.1;
+}
+
+
+/**   Animation  **/
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+/**   CART  **/
+#cart{
+  /*width:30%;
+  margin-left: 65%;
+  position: absolute;
+  background-color: #E14D2A;
+  text-align: center;
+  color: #fffcf9;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;*/
+  width:30%;
+  max-height: 100%;
+    margin-left: 65%;
+position: absolute;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 10px 10px 15px rgba(0.5, 0.5, 0.8, 0.5);
+  margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+
+}
+.cart-image{
+max-width:100%;
+height:100%;
+}
+
+/**Buttons**/
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Georgia;
+  color: #e83c07;
+  font-size: 18px;
+  background: #f0f0f0;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ebeef0;
+  text-decoration: none;
+}
+
+.btn-cart {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f08239;
+  padding: 10px 20px 5px 20px;
+  text-decoration: none;
+
+}
+
+.btn-cart:hover {
+  background: #e84d1e;
+   background-image: -webkit-linear-gradient(top, #e84d1e, #ff5500);
+   background-image: -moz-linear-gradient(top, #e84d1e, #ff5500);
+   background-image: -ms-linear-gradient(top, #e84d1e, #ff5500);
+   background-image: -o-linear-gradient(top, #e84d1e, #ff5500);
+   background-image: linear-gradient(to bottom, #e84d1e, #ff5500);
+   text-decoration: none;
+}
+
+
+.addcart{
+
+  position:relative;
+  right:120px;
+  top:1px;
+
+}
+
+.space{
+  visibility: hidden;
+}
+.xspace{
+  visibility: hidden;
+}
+/* Styles for the delete button */
+.cart-items button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Styles for the checkout button */
+.cart-total .checkout-button {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+
+
+/**  CART  **/
+
+.cart {
+  display: none;
+  font-size: 2rem;
+}
+
+.cart.active {
+  display: block;
+}
+
+
+/**Media queries**/
+@media screen and (min-width: 1005px) {
+  #carouselExample {
+        display: none;
+
+  }
+  .xspace{
+    display: none;
+  }
+
+  .content-container {
+  display: block;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #carouselExample {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-width: 100%;
+
+  }
+  #cart{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel{
+    width:100%;
+  }
+
+  .container-content {
+  display: none;
+  }
+  .sneaktext{
+  margin-top: 85px;
+margin-left: 40px;
+    width: 100%;
+      }
+      .top-text{
+      margin-left:
+      }
+      .top-text2{
+  font-size: 2rem;
+      }
+      .top-text3{
+        width: 90%;
+        font-size: 1.2rem;
+      }
+      .addcart{
+        position: relative;
+      left: 4px;
+      top:25px;
+      padding-bottom: 20px;
+      }
+
+}
+
+
+
+
+/** checkoutpage**/
+
+
+.divv{
+  width:80%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 10px 10px 15px rgba(0.5, 0.5, 0.8, 0.5);
+  margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    font-size: 2rem;
+    line-height: 4;
+
+}
+.btn-checkout{
+  background-color: #e83c07;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 5px 20px;
+  text-decoration: none;
+
+}
+.btn-checkout:hover{
+  background: #e84d1e;
+   background-image: -webkit-linear-gradient(top, #e84d1e, #ff5500);
+   background-image: -moz-linear-gradient(top, #e84d1e, #ff5500);
+   background-image: -ms-linear-gradient(top, #e84d1e, #ff5500);
+   background-image: -o-linear-gradient(top, #e84d1e, #ff5500);
+   background-image: linear-gradient(to bottom, #e84d1e, #ff5500);
+   text-decoration: none;
+}
